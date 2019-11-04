@@ -8,12 +8,12 @@
 import UIKit
 import AVFoundation
 
-// MARK: - PlaySoundsViewController: AVAudioPlayerDelegate
+// MARK: - PlaySoundViewController: AVAudioPlayerDelegate
 
 extension PlaySoundViewController: AVAudioPlayerDelegate {
     
     // MARK: Alerts
-    
+     
     struct Alerts {
         static let DismissAlert = "Dismiss"
         static let RecordingDisabledTitle = "Recording Disabled"
